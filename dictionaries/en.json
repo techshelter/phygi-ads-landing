@@ -1,0 +1,266 @@
+{
+  "nav": {
+    "home": "Home",
+    "platform": "Phygi Ads",
+    "pain": "Phygi Pain",
+    "annonceurs": "Advertisers",
+    "partenaires": "Partners",
+    "cta": "Launch a campaign"
+  },
+  "home": {
+    "hero": {
+      "badge": "🌍 The Nielsen of Francophone Africa",
+      "title": "Offline advertising,",
+      "titleEm": "finally measurable.",
+      "description": "In Africa, physical advertising represents the majority of marketing budgets. No one measures any of it. Phygi Ads changes that.",
+      "ctaPrimary": "Launch a campaign →",
+      "ctaSecondary": "Discover the platform",
+      "stats": [
+        { "num": "2M+",  "label": "Bags distributed / month" },
+        { "num": "500+", "label": "Bakery partners" },
+        { "num": "100%", "label": "Measurable campaigns" },
+        { "num": "0",    "label": "Lost data" }
+      ]
+    },
+    "problem": {
+      "badge": "The problem",
+      "title": "Brands spend millions without knowing what works.",
+      "description": "Posters, flyers, bread bags, POS displays… Physical advertising takes up the bulk of marketing budgets in Africa. Zero data. Zero audience. Zero attribution.",
+      "cards": [
+        { "icon": "📊", "title": "No measurement", "description": "Brands don't know how many people saw their message, or whether it generated any action." },
+        { "icon": "👥", "title": "No audience",    "description": "Impossible to know who was exposed to the campaign — age, neighborhood, purchase frequency… all unknown." },
+        { "icon": "🔗", "title": "No attribution", "description": "Impossible to link a sale to a physical ad. Decisions are made blind." },
+        { "icon": "💸", "title": "Wasted budget",  "description": "Without data, budgets are allocated based on gut feelings. A large portion is ineffective." }
+      ]
+    },
+    "solution": {
+      "badge": "The solution",
+      "title": "Phygi Ads turns every bread bag into a measurable medium.",
+      "description": "We combine the power of physical media — its reach, proximity, and recurrence — with digital measurability. For the first time, offline advertising becomes as traceable as Facebook Ads.",
+      "cta": "See how it works →",
+      "dashboard": {
+        "campaignLabel": "MTN Campaign — Week 3",
+        "scans": "12,847 scans",
+        "growth": "+34% vs previous week",
+        "stats": [
+          { "value": "4.2%",   "label": "Conversion rate",       "accent": true  },
+          { "value": "23 yrs", "label": "Median audience age",   "accent": false },
+          { "value": "87%",    "label": "Abidjan reach",         "accent": false },
+          { "value": "6.1x",   "label": "Estimated ROI",         "accent": true  }
+        ]
+      }
+    },
+    "network": {
+      "badge": "Our network",
+      "title": "A network of bakeries at the heart of every neighborhood.",
+      "description": "Our partners are present in every district of Abidjan, in every working-class and residential neighborhood. Every bag distributed is a qualified touchpoint.",
+      "metrics": [
+        { "num": "12",    "label": "Districts covered in Abidjan" },
+        { "num": "3.2",   "label": "Contacts / bag on average" },
+        { "num": "Daily", "label": "Contact frequency" },
+        { "num": "CSP+",  "label": "& standard CSP covered" }
+      ]
+    },
+    "cta": {
+      "title": "Ready to measure your campaigns?",
+      "description": "Join the pioneer brands transforming their physical advertising into actionable data.",
+      "ctaBrand": "I'm a brand →",
+      "ctaBoulangerie": "I'm a bakery"
+    }
+  },
+  "platform": {
+    "hero": {
+      "badge": "🧠 The platform",
+      "title": "Phygi Ads",
+      "titleEm": "The measurement infrastructure for physical advertising.",
+      "description": "The first African platform connecting physical advertising to digital data. What Nielsen did for TV, Phygi Ads does for the field."
+    },
+    "how": {
+      "badge": "How it works",
+      "title": "From bread bag to real-time dashboard.",
+      "description": "Phygi Ads connects every physical advertising support to a digital tracking infrastructure. Every impression becomes data. Every scan becomes an insight.",
+      "steps": [
+        { "title": "Physical distribution",   "description": "Bread bags printed with unique QR codes are distributed through the network of partner bakeries.", "accent": false },
+        { "title": "Consumer activation",     "description": "The consumer scans the QR code to access an offer, a promo, or brand content.",                  "accent": false },
+        { "title": "Data collection",         "description": "Each scan returns geolocation, time, frequency, and anonymized demographic profile.",              "accent": false },
+        { "title": "Advertiser dashboard",    "description": "The advertiser accesses their real-time dashboard: reach, engagement, audience profile, estimated ROI.", "accent": true }
+      ],
+      "dashboard": {
+        "title": "Phygi Ads Dashboard — Live",
+        "chartTitle": "Scans per day — last 7 days",
+        "days": ["M", "T", "W", "T", "F", "S", "S"],
+        "stats": [
+          { "value": "48,291", "label": "Total scans",      "accent": false },
+          { "value": "3.8%",   "label": "Engagement rate",  "accent": true  },
+          { "value": "Cocody", "label": "Top zone",          "accent": false },
+          { "value": "7-9am",  "label": "Activity peak",    "accent": true  }
+        ]
+      }
+    },
+    "data": {
+      "badge": "Phygi data",
+      "title": "What Phygi Ads measures for you.",
+      "description": "For the first time, physical advertising generates data comparable to the best digital campaigns.",
+      "cards": [
+        { "icon": "📍", "title": "Geolocation",      "description": "District, neighborhood, heat map. Know exactly where your message resonates most." },
+        { "icon": "⏱️", "title": "Timing",           "description": "Scan time, day of week, activity peaks. Optimize your next campaigns for the right time slots." },
+        { "icon": "👤", "title": "Audience profile", "description": "Anonymized demographic data, browsing behavior, declared interests via the landing page." },
+        { "icon": "🔄", "title": "Frequency",        "description": "Rescan rate, recurrence, zone loyalty. Measure repetition of exposure to your message." },
+        { "icon": "🎯", "title": "Conversion",       "description": "Clicks, page views, forms filled, promo codes used. The full funnel of physical advertising." },
+        { "icon": "📈", "title": "Estimated ROI",    "description": "Proprietary attribution model linking scans to sales declared by the advertiser." }
+      ]
+    },
+    "comparison": {
+      "badge": "Phygi vs market",
+      "title": "Phygi Ads vs traditional advertising",
+      "headers": ["Criterion", "🟢 Phygi Ads", "Classic display", "Flyers / POS"],
+      "rows": [
+        ["Measurability",         "✓ Real-time",        "✗ Estimated",      "✗ None"      ],
+        ["Qualified audience",    "✓ Detailed profile", "✗ Unknown",        "✗ Unknown"   ],
+        ["Attribution",           "✓ Tracked QR code",  "✗ Impossible",     "✗ Impossible"],
+        ["Campaign optimization", "✓ Continuous",       "✗ Post-campaign",  "✗ None"      ],
+        ["Consumer proximity",    "✓ Daily",            "Occasional",       "Occasional"  ]
+      ]
+    }
+  },
+  "pain": {
+    "hero": {
+      "badge": "🥖 Phygi Pain vertical",
+      "title": "Phygi Pain",
+      "titleEm": "The bakery as a neighborhood super-medium.",
+      "description": "Every morning, millions of Ivorians buy their bread. We transform this daily ritual into a measurable advertising network."
+    },
+    "insight": {
+      "badge": "The key insight",
+      "title": "The bread bag: the best medium no one was using.",
+      "description": "Daily contact. All social classes. A moment of genuine attention. Held in hand, brought home, shared with family. No other physical medium has this level of proximity.",
+      "features": [
+        { "icon": "📅", "title": "Daily contact", "description": "Bread is consumed every morning. So is your ad." },
+        { "icon": "🏘️", "title": "Full coverage", "description": "From working-class to residential neighborhoods, all segments covered." },
+        { "icon": "🤝", "title": "Local trust",   "description": "The neighborhood bakery is a place of trust. Its bag is too." }
+      ],
+      "networkTitle": "Estimated reach — Phygi Pain Abidjan network",
+      "networkStats": [
+        { "value": "2M+",  "label": "Bags / month" },
+        { "value": "6M+",  "label": "Estimated contacts" },
+        { "value": "500+", "label": "Bakeries" },
+        { "value": "100%", "label": "Abidjan districts" }
+      ],
+      "quote": {
+        "text": "\"It's the first time a field campaign has given me this much data. I know exactly which neighborhood responded best.\"",
+        "author": "— Marketing Director, FMCG Abidjan"
+      }
+    },
+    "journey": {
+      "title": "The journey of a Phygi Pain campaign",
+      "steps": [
+        { "title": "Advertiser brief",    "description": "Objective, target zone, duration, visuals and promotional offer." },
+        { "title": "Bag production",      "description": "Printing bread bags with unique QR codes per zone." },
+        { "title": "Network distribution","description": "Delivery to partner bakeries in targeted zones." },
+        { "title": "QR activation",       "description": "Consumers scan to access the brand offer." },
+        { "title": "Report & insights",   "description": "Real-time dashboard + full campaign report." }
+      ]
+    },
+    "cta": {
+      "title": "Are you a bakery?",
+      "description": "Join the Phygi Pain network and receive your bags for free while monetizing your advertising space.",
+      "button": "Become a partner →"
+    }
+  },
+  "annonceurs": {
+    "hero": {
+      "badge": "📣 For brands",
+      "title": "Reach millions of consumers.",
+      "titleEm": "Measure every franc invested.",
+      "description": "Phygi Ads offers brands an unprecedented solution: the reach of physical advertising with the precision of digital.",
+      "ctaDemo": "Request a demo",
+      "ctaKit": "Download the media kit"
+    },
+    "who": {
+      "badge": "Who is it for?",
+      "title": "Built for brands that want proof.",
+      "cards": [
+        { "icon": "📱", "title": "FMCG & Consumer Goods",  "description": "Nestlé, Unilever, breweries… Reach households in their daily buying ritual with traceable campaigns." },
+        { "icon": "📶", "title": "Telecoms & Mobile",      "description": "MTN, Orange, Wave… Activate geolocated promotions and measure real conversion rates from the field." },
+        { "icon": "🏦", "title": "Banks & Fintech",        "description": "Reach underbanked populations where they are. Qualified acquisition, measurable cost per lead." },
+        { "icon": "🛒", "title": "Retail & Distribution",  "description": "Drive foot traffic to your stores with hyper-local campaigns and complete tracking." }
+      ]
+    },
+    "benefits": {
+      "badge": "What you get",
+      "title": "One campaign. Real data.",
+      "description": "For the first time in Francophone Africa, a physical campaign gives you access to the same KPIs as your digital campaigns.",
+      "checks": [
+        { "title": "Certified reach",       "description": "Number of bags distributed by zone, bakery, and day." },
+        { "title": "Measured engagement",   "description": "Scans, clicks, visit duration, actions on the landing page." },
+        { "title": "Real audience profile", "description": "Demographic and geographic data of those who actually interacted." },
+        { "title": "Full campaign report",  "description": "PDF and dashboard access with all your KPIs, comparable to your digital reporting." }
+      ],
+      "report": {
+        "title": "Campaign Report — Example",
+        "rows": [
+          { "label": "Bags distributed",  "value": "150,000", "accent": false, "large": false },
+          { "label": "QR code scans",     "value": "8,421",   "accent": false, "large": false },
+          { "label": "Engagement rate",   "value": "5.6%",    "accent": true,  "large": false },
+          { "label": "Top zone",          "value": "Yopougon","accent": false, "large": false },
+          { "label": "Leads generated",   "value": "1,204",   "accent": true,  "large": false },
+          { "label": "Estimated ROI",     "value": "4.8x",    "accent": false, "large": true  }
+        ]
+      }
+    },
+    "cta": {
+      "title": "Ready to launch your first Phygi campaign?",
+      "description": "Our teams guide you from strategy to measurement. Let's talk about your next brief.",
+      "button": "Request a demo →"
+    }
+  },
+  "partenaires": {
+    "hero": {
+      "badge": "🥖 Bakery partners",
+      "title": "Your bakery.",
+      "titleEm": "Your new revenue stream.",
+      "description": "Join the Phygi Pain network and turn your bread bags into a marketing asset. Zero cost. Zero effort. Only benefits.",
+      "cta": "Become a partner →"
+    },
+    "benefits": {
+      "badge": "What you gain",
+      "title": "Why join Phygi Pain?",
+      "cards": [
+        { "icon": "🎁", "title": "Free bread bags",        "description": "We cover your bread bags every month, at the same specs as your current bags. Zero extra cost for you.", "accent": false },
+        { "icon": "💰", "title": "Campaign commissions",   "description": "Every campaign distributed through your bakery generates a direct commission. Your bag becomes an asset that works for you.", "accent": true  },
+        { "icon": "🏆", "title": "Image and prestige",     "description": "Major brands choose your bags to communicate. It's a trust signal for all your customers.", "accent": false },
+        { "icon": "📲", "title": "Your own digital",       "description": "The QR code can link to your own page: your promotions, your news, your loyalty program. We fund your marketing.", "accent": true  }
+      ]
+    },
+    "how": {
+      "badge": "Simple commitment",
+      "title": "How does it work for you?",
+      "steps": [
+        { "title": "You join us",           "description": "A simple partnership agreement. 3-month pilot period with no long-term commitment.", "accent": false },
+        { "title": "We deliver your bags",  "description": "Your printed bread bags are delivered directly to your bakery, regularly.", "accent": false },
+        { "title": "You use, we measure",   "description": "You continue your normal business. We collect data from scanned QR codes.", "accent": false },
+        { "title": "You get paid",          "description": "Your commission is paid monthly based on the volume of campaigns distributed.", "accent": true  }
+      ],
+      "guaranteeTitle": "What you don't risk",
+      "guaranteeSubtitle": "We know trust is earned. That's why we've thought of everything.",
+      "guarantees": [
+        "No changes to your daily work routine",
+        "You approve visuals before printing",
+        "No customer data collected",
+        "Cancel at any time",
+        "One partner per neighborhood — zone exclusivity"
+      ],
+      "note": "🎯 We don't work with every bakery. We look for the best partners in each neighborhood."
+    },
+    "cta": {
+      "title": "Ready to join the network?",
+      "description": "We're currently looking for partner bakeries in Abidjan. Those who join first will get the best terms.",
+      "button": "I want to become a partner →"
+    }
+  },
+  "footer": {
+    "logo": "PhygiAds",
+    "tagline": "Offline advertising, finally measurable. — Abidjan, Côte d'Ivoire",
+    "copyright": "© 2025 Nozaya · Phygi Ads · Phygi Pain"
+  }
+}
