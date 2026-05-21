@@ -75,27 +75,32 @@
       "titleEm": "The measurement infrastructure for physical advertising.",
       "description": "The first African platform connecting physical advertising to digital data. What Nielsen did for TV, Phygi Ads does for the field."
     },
-    "how": {
-      "badge": "How it works",
-      "title": "From bread bag to real-time dashboard.",
-      "description": "Phygi Ads connects every physical advertising support to a digital tracking infrastructure. Every impression becomes data. Every scan becomes an insight.",
-      "steps": [
-        { "title": "Physical distribution",   "description": "Bread bags printed with unique QR codes are distributed through the network of partner bakeries.", "accent": false },
-        { "title": "Consumer activation",     "description": "The consumer scans the QR code to access an offer, a promo, or brand content.",                  "accent": false },
-        { "title": "Data collection",         "description": "Each scan returns geolocation, time, frequency, and anonymized demographic profile.",              "accent": false },
-        { "title": "Advertiser dashboard",    "description": "The advertiser accesses their real-time dashboard: reach, engagement, audience profile, estimated ROI.", "accent": true }
+    "dashboard": {
+      "sectionLabel": "04 · Product",
+      "title": "A real-time dashboard that answers",
+      "titleEm": "the right questions.",
+      "description": "For the first time, offline advertising becomes as measurable as Facebook Ads.",
+      "bullets": [
+        "How many people scanned my ad?",
+        "Which bakeries perform best?",
+        "What time do my customers engage?",
+        "How many used the coupon?",
+        "What's the real ROI, in euros / CFA?",
+        "What audience have I built, and how to re-engage them?"
       ],
-      "dashboard": {
-        "title": "Phygi Ads Dashboard — Live",
-        "chartTitle": "Scans per day — last 7 days",
-        "days": ["M", "T", "W", "T", "F", "S", "S"],
-        "stats": [
-          { "value": "48,291", "label": "Total scans",      "accent": false },
-          { "value": "3.8%",   "label": "Engagement rate",  "accent": true  },
-          { "value": "Cocody", "label": "Top zone",          "accent": false },
-          { "value": "7-9am",  "label": "Activity peak",    "accent": true  }
-        ]
-      }
+      "cta": "Offline ads = as measurable as Facebook Ads →"
+    },
+    "scan": {
+      "sectionLabel": "User experience",
+      "title": "The scan that",
+      "titleEm": "converts in 10 seconds.",
+      "description": "The customer scans the bread bag, lands on a branded page, gets their coupon and WhatsApp opt-in in one tap. Zero friction, zero app to install.",
+      "checks": [
+        { "title": "Branded landing page", "description": "In the advertiser's colors" },
+        { "title": "Instant coupon",       "description": "Validated in store" },
+        { "title": "WhatsApp opt-in",      "description": "One tap, no app" },
+        { "title": "SMS fallback",         "description": "For 100% of the market" }
+      ]
     },
     "data": {
       "badge": "Phygi data",

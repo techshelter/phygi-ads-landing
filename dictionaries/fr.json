@@ -75,27 +75,32 @@
       "titleEm": "L'infrastructure de mesure de la pub physique.",
       "description": "La première plateforme africaine qui connecte la publicité physique à la data digitale. Ce que Nielsen a fait pour la TV, Phygi Ads le fait pour le terrain."
     },
-    "how": {
-      "badge": "Comment ça marche",
-      "title": "Du sac à pain au dashboard en temps réel.",
-      "description": "Phygi Ads relie chaque support publicitaire physique à une infrastructure de tracking digital. Chaque impression devient une donnée. Chaque scan devient un insight.",
-      "steps": [
-        { "title": "Distribution physique",   "description": "Les sacs à pain imprimés avec QR codes uniques sont distribués dans le réseau de boulangeries partenaires.", "accent": false },
-        { "title": "Activation consommateur", "description": "Le consommateur scanne le QR code pour accéder à une offre, une promo ou un contenu de marque.",              "accent": false },
-        { "title": "Collecte de data",        "description": "Chaque scan remonte géolocalisation, horaire, fréquence et profil démographique anonymisé.",                    "accent": false },
-        { "title": "Dashboard annonceur",     "description": "L'annonceur accède à son tableau de bord en temps réel : portée, engagement, profil audience, ROI estimé.",     "accent": true  }
+    "dashboard": {
+      "sectionLabel": "04 · Produit",
+      "title": "Un dashboard temps réel qui répond aux",
+      "titleEm": "vraies questions.",
+      "description": "Pour la première fois, la pub offline devient aussi mesurable que Facebook Ads.",
+      "bullets": [
+        "Combien de personnes ont scanné ma pub ?",
+        "Quelles boulangeries performent le mieux ?",
+        "À quelle heure mes clients réagissent ?",
+        "Combien ont utilisé le coupon ?",
+        "Quel ROI réel, en euros / CFA ?",
+        "Quelle audience j'ai bâtie, et comment la relancer ?"
       ],
-      "dashboard": {
-        "title": "Dashboard Phygi Ads — Live",
-        "chartTitle": "Scans par jour — 7 derniers jours",
-        "days": ["L", "M", "M", "J", "V", "S", "D"],
-        "stats": [
-          { "value": "48 291", "label": "Scans totaux",       "accent": false },
-          { "value": "3.8%",   "label": "Taux d'engagement",  "accent": true  },
-          { "value": "Cocody", "label": "Top zone",            "accent": false },
-          { "value": "7h-9h",  "label": "Pic d'activité",     "accent": true  }
-        ]
-      }
+      "cta": "Pub offline = aussi mesurable que Facebook Ads →"
+    },
+    "scan": {
+      "sectionLabel": "Expérience utilisateur",
+      "title": "Le scan qui",
+      "titleEm": "convertit en 10 secondes.",
+      "description": "Le client scanne sur son sac à pain, atterrit sur une landing de marque, récupère son coupon et opt-in WhatsApp d'un tap. Zéro friction, zéro app à installer.",
+      "checks": [
+        { "title": "Landing brandée",    "description": "Aux couleurs de l'annonceur" },
+        { "title": "Coupon instantané",  "description": "Validé en magasin" },
+        { "title": "Opt-in WhatsApp",   "description": "Un tap, pas d'app" },
+        { "title": "SMS fallback",       "description": "Pour les 100% du marché" }
+      ]
     },
     "data": {
       "badge": "La data Phygi",
