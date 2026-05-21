@@ -9,8 +9,8 @@ interface CardProps {
 
 export default function Card({ icon, title, description, dark = false, topColor, className = '' }: CardProps) {
   const borderTop = topColor === 'brand' ? 'border-t-3 border-t-brand' : topColor === 'accent' ? 'border-t-3 border-t-accent' : ''
-  const cardBg    = dark ? 'bg-[#232323] border-[#333]' : 'bg-white border-wire'
-  const iconBg    = dark ? 'bg-[#1D9E7522]' : 'bg-brand-light'
+  const cardBg    = dark ? 'bg-[#141526] border-[#1e1f3a]' : 'bg-white border-wire'
+  const iconBg    = dark ? 'bg-[#2584FE22]' : 'bg-brand-light'
 
   return (
     <div className={`border rounded-xl p-7 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_32px_rgba(0,0,0,0.07)] ${cardBg} ${borderTop} ${className}`}>

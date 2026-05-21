@@ -17,7 +17,7 @@ export default async function PainPage({ params }: PageProps<'/[lang]/pain'>) {
       {/* ── HERO ── */}
       <section
         className="text-white text-center py-20 px-[5%]"
-        style={{ background: 'linear-gradient(135deg, #1a1a0a 0%, #203A43 100%)' }}
+        style={{ background: 'linear-gradient(135deg, #08091f 0%, #0D0E47 100%)' }}
       >
         <span className="inline-flex items-center gap-2 bg-leaf/15 border border-leaf/30 rounded-full px-4 py-1.5 text-[13px] mb-6">
           {hero.badge}
@@ -35,7 +35,7 @@ export default async function PainPage({ params }: PageProps<'/[lang]/pain'>) {
       {/* ── INSIGHT ── */}
       <section className="py-20 px-[5%]">
         <div className="max-w-300 mx-auto">
-          <div className="grid md:grid-cols-2 gap-[60px] items-center">
+          <div className="grid md:grid-cols-2 gap-15 items-center">
             <div>
               <SectionHeader badge={insight.badge} title={insight.title} />
               <p className="text-muted text-[16px] leading-[1.7] mb-5">{insight.description}</p>

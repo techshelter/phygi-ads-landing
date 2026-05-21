@@ -17,7 +17,7 @@ export default async function AnnonceursPage({ params }: PageProps<'/[lang]/anno
       {/* ── HERO ── */}
       <section
         className="text-white text-center py-20 px-[5%]"
-        style={{ background: 'linear-gradient(135deg, #0F2027 0%, #2C1654 100%)' }}
+        style={{ background: 'linear-gradient(135deg, #0D0E47 0%, #141840 100%)' }}
       >
         <span className="inline-flex items-center gap-2 bg-leaf/15 border border-leaf/30 rounded-full px-4 py-1.5 text-[13px] mb-6">
           {hero.badge}
@@ -27,7 +27,7 @@ export default async function AnnonceursPage({ params }: PageProps<'/[lang]/anno
           style={{ fontSize: 'clamp(32px, 5vw, 56px)' }}
         >
           {hero.title}<br />
-          <span style={{ color: '#AFA9EC' }}>{hero.titleEm}</span>
+          <span className="text-leaf">{hero.titleEm}</span>
         </h1>
         <p className="text-[17px] text-white/80 max-w-140 mx-auto mb-9">{hero.description}</p>
         <div className="flex gap-3.5 justify-center flex-wrap">

@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
+import Logo from '@/components/ui/Logo'
 
 interface NavDict {
   home: string
@@ -41,8 +42,8 @@ export default function Navbar({ lang, nav }: NavbarProps) {
     <nav className="sticky top-0 z-50 bg-white/96 backdrop-blur-sm border-b border-wire px-[5%]">
       <div className="max-w-300 mx-auto flex items-center justify-between h-16">
         {/* Logo */}
-        <Link href={`/${lang}`} className="text-[20px] font-bold text-brand-dark! tracking-[-0.5px]">
-          Phygi<span className="text-accent">Ads</span>
+        <Link href={`/${lang}`} className="flex items-center">
+          <Logo size={32} />
         </Link>
 
         {/* Desktop links */}
@@ -98,8 +99,15 @@ export default function Navbar({ lang, nav }: NavbarProps) {
             </Link>
           ))}
           <Link
+            href={otherLangHref}
+            className="px-2 py-1 text-muted font-semibold uppercase text-[13px]"
+            onClick={() => setOpen(false)}
+          >
+            {otherLang}
+          </Link>
+          <Link
             href={`/${lang}/annonceurs`}
-            className="mt-2 bg-brand text-white px-5 py-2.5 rounded-lg text-[14px] font-medium text-center"
+            className="mt-1 bg-brand text-white px-5 py-2.5 rounded-lg text-[14px] font-medium text-center"
             onClick={() => setOpen(false)}
           >
             {nav.cta}

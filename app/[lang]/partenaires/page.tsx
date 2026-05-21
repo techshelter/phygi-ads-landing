@@ -16,7 +16,7 @@ export default async function PartenairesPage({ params }: PageProps<'/[lang]/par
       {/* ── HERO ── */}
       <section
         className="text-white text-center py-25 px-[5%]"
-        style={{ background: 'linear-gradient(135deg, #0a1a0a 0%, #0F2027 50%, #0F6E56 100%)' }}
+        style={{ background: 'linear-gradient(135deg, #08091f 0%, #0D0E47 50%, #162060 100%)' }}
       >
         <span className="inline-block bg-white/12 border border-white/20 rounded-full px-4 py-1.5 text-[13px] mb-7 tracking-[0.5px]">
           {hero.badge}

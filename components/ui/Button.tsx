@@ -12,7 +12,7 @@ interface ButtonProps {
 
 const styles: Record<Variant, string> = {
   primary:  'bg-brand text-white hover:bg-brand-dark',
-  accent:   'bg-accent text-white hover:bg-[#443ca0]',
+  accent:   'bg-accent text-white hover:bg-[#070828]',
   secondary:'bg-white/10 text-white border border-white/30 hover:bg-white/[0.18]',
   outline:  'bg-transparent text-ink border border-wire hover:bg-surface',
 }

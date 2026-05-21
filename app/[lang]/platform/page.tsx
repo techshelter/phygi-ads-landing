@@ -16,7 +16,7 @@ export default async function PlatformPage({ params }: PageProps<'/[lang]/platfo
       {/* ── HERO ── */}
       <section
         className="text-white text-center py-20 px-[5%]"
-        style={{ background: 'linear-gradient(135deg, #0F2027 0%, #2C1654 100%)' }}
+        style={{ background: 'linear-gradient(135deg, #0D0E47 0%, #141840 100%)' }}
       >
         <span className="inline-flex items-center gap-2 bg-leaf/15 border border-leaf/30 rounded-full px-4 py-1.5 text-[13px] mb-6">
           {hero.badge}
@@ -74,7 +74,7 @@ export default async function PlatformPage({ params }: PageProps<'/[lang]/platfo
             />
           </div>
           <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-6 mt-12">
-            {data.cards.map((c, i) => (
+            {data.cards.map((c) => (
               <Card
                 key={c.title}
                 icon={c.icon}
