@@ -35,7 +35,7 @@ export default function DashboardMock({ title, chartTitle, days, stats }: Dashbo
           {BAR_HEIGHTS.map((h, i) => (
             <div
               key={i}
-              className={`flex-1 rounded-t-[4px] ${h >= 90 ? 'bg-brand-dark' : h >= 65 ? 'bg-brand' : 'bg-brand-light'}`}
+              className={`flex-1 rounded-t-sm ${h >= 90 ? 'bg-brand-dark' : h >= 65 ? 'bg-brand' : 'bg-brand-light'}`}
               style={{ height: `${h}%` }}
             />
           ))}

@@ -20,7 +20,7 @@ export default function SectionHeader({ badge, badgeVariant = 'brand', title, su
         {title}
       </h2>
       {subtitle && (
-        <p className={`text-[17px] leading-[1.7] max-w-[580px] ${center ? 'mx-auto' : ''} ${dark ? 'text-white/65' : 'text-muted'}`}>
+        <p className={`text-[17px] leading-[1.7] max-w-145 ${center ? 'mx-auto' : ''} ${dark ? 'text-white/65' : 'text-muted'}`}>
           {subtitle}
         </p>
       )}
