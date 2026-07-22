@@ -9,15 +9,15 @@
   },
   "home": {
     "hero": {
-      "badge": "🌍 The Nielsen of Francophone Africa",
-      "title": "Offline advertising,",
+      "badge": "🌍 You can be see, but by who ?",
+      "title": "Classic advertising,",
       "titleEm": "finally measurable.",
       "description": "In Africa, physical advertising represents the majority of marketing budgets. No one measures any of it. Phygi Ads changes that.",
       "ctaPrimary": "Launch a campaign →",
       "ctaSecondary": "Discover the platform",
       "stats": [
-        { "num": "2M+",  "label": "Bags distributed / month" },
-        { "num": "500+", "label": "Bakery partners" },
+        { "num": "1M+",  "label": "Bags distributed / month" },
+        { "num": "200+", "label": "Bakery partners" },
         { "num": "100%", "label": "Measurable campaigns" },
         { "num": "0",    "label": "Lost data" }
       ]
@@ -39,7 +39,7 @@
       "description": "We combine the power of physical media — its reach, proximity, and recurrence — with digital measurability. For the first time, offline advertising becomes as traceable as Facebook Ads.",
       "cta": "See how it works →",
       "dashboard": {
-        "campaignLabel": "MTN Campaign — Week 3",
+        "campaignLabel": "NOZAYA Campaign — Week 3",
         "scans": "12,847 scans",
         "growth": "+34% vs previous week",
         "stats": [
@@ -146,9 +146,9 @@
       ],
       "networkTitle": "Estimated reach — Phygi Pain Abidjan network",
       "networkStats": [
-        { "value": "2M+",  "label": "Bags / month" },
+        { "value": "1M+",  "label": "Bags / month" },
         { "value": "6M+",  "label": "Estimated contacts" },
-        { "value": "500+", "label": "Bakeries" },
+        { "value": "200+", "label": "Bakeries" },
         { "value": "100%", "label": "Abidjan districts" }
       ],
       "quote": {

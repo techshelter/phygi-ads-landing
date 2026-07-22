@@ -9,15 +9,15 @@
   },
   "home": {
     "hero": {
-      "badge": "🌍 Le Nielsen de l'Afrique francophone",
-      "title": "La pub offline,",
+      "badge": "🌍 Vous pouvez etre vus, mais par qui ?",
+      "title": "La pub classique,",
       "titleEm": "enfin mesurable.",
       "description": "En Afrique, la pub physique représente la majorité des budgets marketing. Personne n'en mesure rien. Phygi Ads change ça.",
       "ctaPrimary": "Lancer une campagne →",
       "ctaSecondary": "Découvrir la plateforme",
       "stats": [
-        { "num": "2M+",  "label": "Sacs distribués / mois" },
-        { "num": "500+", "label": "Boulangeries partenaires" },
+        { "num": "1M+",  "label": "Sacs distribués / mois" },
+        { "num": "200+", "label": "Boulangeries partenaires" },
         { "num": "100%", "label": "Campagnes mesurables" },
         { "num": "0",    "label": "Donnée perdue" }
       ]
@@ -39,7 +39,7 @@
       "description": "Nous combinons la puissance du média physique — sa portée, sa proximité, sa récurrence — avec la mesurabilité du digital. Pour la première fois, la pub offline devient aussi traçable que Facebook Ads.",
       "cta": "Voir comment ça marche →",
       "dashboard": {
-        "campaignLabel": "Campagne MTN — Semaine 3",
+        "campaignLabel": "Campagne NOZAYA — Semaine 3",
         "scans": "12 847 scans",
         "growth": "+34% vs semaine précédente",
         "stats": [
@@ -146,9 +146,9 @@
       ],
       "networkTitle": "Portée estimée — réseau Phygi Pain Abidjan",
       "networkStats": [
-        { "value": "2M+",  "label": "Sacs / mois" },
+        { "value": "1M+",  "label": "Sacs / mois" },
         { "value": "6M+",  "label": "Contacts estimés" },
-        { "value": "500+", "label": "Boulangeries" },
+        { "value": "200+", "label": "Boulangeries" },
         { "value": "100%", "label": "Communes Abidjan" }
       ],
       "quote": {
