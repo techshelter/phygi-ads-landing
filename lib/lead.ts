@@ -1,3 +1,5 @@
+import { parsePhoneNumberFromString } from 'libphonenumber-js/max'
+
 export type Profile = 'advertiser' | 'shop'
 
 export interface Lead {
@@ -34,13 +36,25 @@ export const emptyLead: Lead = {
   consent: false,
 }
 
-const MIN_PHONE_DIGITS = 8
 const EMAIL = /^\S+@\S+\.\S+$/
+
+/** Reads the phone in the selected dial code, unless the visitor typed their own +prefix. */
+function phoneNumber(lead: Lead) {
+  return parsePhoneNumberFromString(lead.phone, { defaultCallingCode: lead.dialCode.replace('+', '') })
+}
+
+const hasValidPhone = (lead: Lead) => phoneNumber(lead)?.isValid() ?? false
+
+/** e.g. "+225 07 00 00 00 00"; falls back to the raw input when it can't be parsed. */
+export function internationalPhone(lead: Lead): string {
+  const phone = phoneNumber(lead)
+  return phone?.isValid() ? phone.formatInternational() : `${lead.dialCode} ${lead.phone.trim()}`
+}
 
 export function validateLead(lead: Lead): LeadError | null {
   if (![lead.firstName, lead.lastName, lead.company].every((v) => v.trim())) return 'identity'
   if (lead.profile === 'shop' && (!lead.shopType || !lead.commune)) return 'shopDetails'
-  if (lead.phone.replace(/\D/g, '').length < MIN_PHONE_DIGITS) return 'phone'
+  if (!hasValidPhone(lead)) return 'phone'
   if (lead.email && !EMAIL.test(lead.email)) return 'email'
   if (!lead.consent) return 'consent'
   return null

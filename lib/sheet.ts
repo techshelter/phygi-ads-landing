@@ -1,4 +1,4 @@
-import type { Lead } from './lead.ts'
+import { internationalPhone, type Lead } from './lead.ts'
 
 /** Column order of the leads Google Sheet. Row 1 of the sheet should hold these headers. */
 export const SHEET_HEADERS = [
@@ -18,7 +18,7 @@ export function leadToRow(lead: Lead, date: Date): string[] {
     lead.firstName.trim(),
     lead.lastName.trim(),
     lead.company.trim(),
-    `${lead.dialCode} ${lead.phone.trim()}`,
+    internationalPhone(lead),
     lead.email.trim(),
     lead.communes.join(', '),
     lead.budget,

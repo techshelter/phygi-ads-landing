@@ -22,7 +22,7 @@ test('maps a lead to one cell per header, in order', () => {
   assert.equal(row.length, SHEET_HEADERS.length)
   assert.deepEqual(row, [
     '2026-11-17T10:00:00.000Z', 'shop', 'Awa', 'Koné', 'Boulangerie Awa',
-    "'+225 07 00 00 00 00", 'awa@mail.ci', '', '', 'Boulangerie', 'Cocody', '50 – 150', 'yes',
+    "'+225 07 00 00 0000", 'awa@mail.ci', '', '', 'Boulangerie', 'Cocody', '50 – 150', 'yes',
   ])
 })
 
