@@ -1,271 +1,163 @@
 {
+  "meta": {
+    "title": "Phygi Ads — La pub classique, enfin mesurable",
+    "description": "Votre pub imprimée sur les supports du quotidien, avec un QR code. Chaque scan est compté et vous suivez les résultats en direct."
+  },
   "nav": {
-    "home": "Accueil",
-    "platform": "Phygi Ads",
-    "pain": "Phygi Pain",
-    "annonceurs": "Annonceurs",
-    "partenaires": "Partenaires",
-    "cta": "Lancer une campagne"
+    "supports": "Supports",
+    "scan": "Le scan",
+    "measure": "Mesure",
+    "network": "Réseau",
+    "cta": "Lancer une campagne",
+    "switchLabel": "English version"
   },
-  "home": {
-    "hero": {
-      "badge": "🌍 Vous pouvez être vus, mais par qui ?",
-      "title": "La pub classique,",
-      "titleEm": "enfin mesurable.",
-      "description": "En Afrique, la pub physique représente la majorité des budgets marketing. Personne n'en mesure rien. Phygi Ads change ça.",
-      "ctaPrimary": "Lancer une campagne →",
-      "ctaSecondary": "Découvrir la plateforme",
-      "stats": [
-        { "num": "1M+",  "label": "Sacs distribués / mois" },
-        { "num": "200+", "label": "Boulangeries partenaires" },
-        { "num": "100%", "label": "Campagnes mesurables" },
-        { "num": "0",    "label": "Donnée perdue" }
-      ]
-    },
-    "problem": {
-      "badge": "Le problème",
-      "title": "Les marques payent des millions sans savoir ce qui marche.",
-      "description": "Affiches, flyers, sacs à pain, PLV… La pub physique mobilise l'essentiel des budgets marketing en Afrique. Zéro donnée. Zéro audience. Zéro attribution.",
-      "cards": [
-        { "icon": "📊", "title": "Aucune mesure",      "description": "Les marques ne savent pas combien de personnes ont vu leur message, ni si ça a généré une action." },
-        { "icon": "👥", "title": "Aucune audience",    "description": "Impossible de savoir qui a été exposé à la campagne — âge, quartier, fréquence d'achat… tout est inconnu." },
-        { "icon": "🔗", "title": "Aucune attribution", "description": "Impossible de relier une vente à une publicité physique. Les décisions se prennent à l'aveugle." },
-        { "icon": "💸", "title": "Budget gaspillé",    "description": "Sans data, les budgets sont alloués sur la base d'intuitions. Une grande partie est inefficace." }
-      ]
-    },
-    "solution": {
-      "badge": "La solution",
-      "title": "Phygi Ads transforme chaque sac à pain en média mesurable.",
-      "description": "Nous combinons la puissance du média physique — sa portée, sa proximité, sa récurrence — avec la mesurabilité du digital. Pour la première fois, la pub offline devient aussi traçable que Facebook Ads.",
-      "cta": "Voir comment ça marche →",
-      "dashboard": {
-        "campaignLabel": "Campagne NOZAYA — Semaine 3",
-        "scans": "12 847 scans",
-        "growth": "+34% vs semaine précédente",
-        "stats": [
-          { "value": "4.2%",   "label": "Taux de conversion",   "accent": true  },
-          { "value": "23 ans", "label": "Âge médian audience",  "accent": false },
-          { "value": "87%",    "label": "Portée Abidjan",       "accent": false },
-          { "value": "6.1x",   "label": "ROI estimé",           "accent": true  }
-        ]
-      }
-    },
-    "network": {
-      "badge": "Notre réseau",
-      "title": "Un réseau de boulangeries au cœur de chaque quartier.",
-      "description": "Nos partenaires sont présents dans chaque commune d'Abidjan, dans chaque quartier populaire et résidentiel. Chaque sac distribué est un point de contact qualifié.",
-      "metrics": [
-        { "num": "12",    "label": "Communes couvertes à Abidjan" },
-        { "num": "3,2",   "label": "Contacts / sac en moyenne" },
-        { "num": "Daily", "label": "Fréquence de contact" },
-        { "num": "CSP+",  "label": "& CSP standard couverts" }
-      ]
-    },
-    "cta": {
-      "title": "Prêt à mesurer vos campagnes ?",
-      "description": "Rejoignez les marques pionnières qui transforment leur pub physique en données actionnables.",
-      "ctaBrand": "Je suis une marque →",
-      "ctaBoulangerie": "Je suis une boulangerie"
+  "hero": {
+    "title": "La pub classique, ",
+    "titleEm": "enfin mesurable.",
+    "description": "En Afrique, la pub physique pèse l'essentiel des budgets marketing, mais personne n'en mesure les résultats. Phygi Ads change ça.",
+    "ctaPrimary": "Lancer une campagne →",
+    "ctaSecondary": "Voir les supports",
+    "imageAlt": "Rue animée d'Abidjan",
+    "stats": [
+      { "value": "1M+", "label": "supports / mois" },
+      { "value": "200+", "label": "points partenaires" },
+      { "value": "5", "label": "supports" },
+      { "value": "100%", "label": "mesurable" }
+    ]
+  },
+  "how": {
+    "eyebrow": "Phygi Ads · le principe",
+    "title": "Votre pub imprimée, ",
+    "titleEm": "avec un QR code.",
+    "description": "Votre campagne est imprimée sur des supports du quotidien : sacs à pain, sacs de pharmacie, flyers, boîtes à pizza, sacs de courses. Chaque scan est compté et vous suivez les résultats en direct.",
+    "steps": [
+      { "title": "Nous imprimons votre pub", "description": "Vous choisissez vos supports, vos communes et votre budget. Chaque support porte votre visuel et un QR code unique." },
+      { "title": "Le public scanne", "description": "Les clients repartent avec votre pub en main et scannent le code pour une offre, un coupon ou un paiement." },
+      { "title": "Vous mesurez", "description": "Scans, conversions et heures de pic remontent en temps réel, support par support." }
+    ]
+  },
+  "supports": {
+    "bread": "Sac à pain",
+    "pharmacy": "Pharmacie",
+    "flyer": "Flyer",
+    "pizza": "Boîte à pizza",
+    "grocery": "Sac de courses"
+  },
+  "scan": {
+    "title": "Un scan.",
+    "titleEm": "10 secondes.",
+    "chips": ["Coupon", "Offre", "Zéro app"],
+    "imageAlt": "Une personne scanne le QR code d'un emballage",
+    "phone": {
+      "shop": "Pizzeria du Plateau ✓",
+      "headline": "Votre boîte à pizza vous fait gagner.",
+      "discount": "-30%",
+      "code": "CODE · PZ30",
+      "cta": "Profiter de l'offre"
     }
   },
-  "platform": {
-    "hero": {
-      "badge": "🧠 La plateforme",
-      "title": "Phygi Ads",
-      "titleEm": "L'infrastructure de mesure de la pub physique.",
-      "description": "La première plateforme africaine qui connecte la publicité physique à la data digitale. Ce que Nielsen a fait pour la TV, Phygi Ads le fait pour le terrain."
+  "measure": {
+    "title": "Chaque support, ",
+    "titleEm": "en temps réel.",
+    "cta": "Voir une démo →",
+    "scansLabel": "Scans · 7 jours",
+    "scansValue": "12 847",
+    "growth": "+23 %",
+    "mapLabel": "Points chauds · Abidjan",
+    "split": [
+      { "label": "Conversions", "value": "3 421" },
+      { "label": "Taux coupon", "value": "28 %" },
+      { "label": "Heure de pic", "value": "19:00" },
+      { "label": "Coupons utilisés", "value": "1 284" }
+    ]
+  },
+  "audiences": {
+    "brands": {
+      "eyebrow": "Marques",
+      "title": "Mesurez chaque franc investi.",
+      "cta": "Je suis une marque →",
+      "imageAlt": "Campagne de marque dans la rue"
     },
-    "dashboard": {
-      "sectionLabel": "04 · Produit",
-      "title": "Un dashboard temps réel qui répond aux",
-      "titleEm": "vraies questions.",
-      "description": "Pour la première fois, la pub offline devient aussi mesurable que Facebook Ads.",
-      "bullets": [
-        "Combien de personnes ont scanné ma pub ?",
-        "Quelles boulangeries performent le mieux ?",
-        "À quelle heure mes clients réagissent ?",
-        "Combien ont utilisé le coupon ?",
-        "Quel ROI réel, en euros / CFA ?",
-        "Quelle audience j'ai bâtie, et comment la relancer ?"
-      ],
-      "cta": "Pub offline = aussi mesurable que Facebook Ads →"
-    },
-    "scan": {
-      "sectionLabel": "Expérience utilisateur",
-      "title": "Le scan qui",
-      "titleEm": "convertit en 10 secondes.",
-      "description": "Le client scanne sur son sac à pain, atterrit sur une landing de marque, récupère son coupon et opt-in WhatsApp d'un tap. Zéro friction, zéro app à installer.",
-      "checks": [
-        { "title": "Landing brandée",    "description": "Aux couleurs de l'annonceur" },
-        { "title": "Coupon instantané",  "description": "Validé en magasin" },
-        { "title": "Opt-in WhatsApp",   "description": "Un tap, pas d'app" },
-        { "title": "SMS fallback",       "description": "Pour les 100% du marché" }
-      ]
-    },
-    "data": {
-      "badge": "La data Phygi",
-      "title": "Ce que Phygi Ads mesure pour vous.",
-      "description": "Pour la première fois, la pub physique remonte des données comparables aux meilleures campagnes digitales.",
-      "cards": [
-        { "icon": "📍", "title": "Géolocalisation", "description": "Commune, quartier, zone de chaleur. Savoir exactement où votre message résonne le plus." },
-        { "icon": "⏱️", "title": "Temporalité",     "description": "Heure de scan, jour de la semaine, pics d'activité. Optimisez vos prochaines campagnes sur les bons créneaux." },
-        { "icon": "👤", "title": "Profil audience", "description": "Données démographiques anonymisées, comportement de navigation, intérêts déclarés via la landing page." },
-        { "icon": "🔄", "title": "Fréquence",       "description": "Taux de rescans, récurrence, fidélité à la zone. Mesurez la répétition d'exposition à votre message." },
-        { "icon": "🎯", "title": "Conversion",      "description": "Clics, pages vues, formulaires remplis, codes promo utilisés. L'entonnoir complet de la pub physique." },
-        { "icon": "📈", "title": "ROI estimé",      "description": "Modèle d'attribution propriétaire qui relie les scans aux ventes déclarées par l'annonceur." }
-      ]
-    },
-    "comparison": {
-      "badge": "Phygi vs marché",
-      "title": "Phygi Ads vs la pub traditionnelle",
-      "headers": ["Critère", "🟢 Phygi Ads", "Affichage classique", "Flyers / PLV"],
-      "rows": [
-        ["Mesurabilité",           "✓ Temps réel",      "✗ Estimative",    "✗ Aucune"      ],
-        ["Audience qualifiée",     "✓ Profil détaillé", "✗ Inconnue",      "✗ Inconnue"    ],
-        ["Attribution",            "✓ QR code tracé",   "✗ Impossible",    "✗ Impossible"  ],
-        ["Optimisation campagne",  "✓ En continu",      "✗ Post-campagne", "✗ Aucune"      ],
-        ["Proximité consommateur", "✓ Quotidienne",     "Ponctuelle",      "Ponctuelle"    ]
-      ]
+    "shops": {
+      "eyebrow": "Commerces",
+      "title": "Vos emballages, un nouveau revenu.",
+      "cta": "Je suis un commerce",
+      "imageAlt": "Commerçant avec ses emballages"
     }
   },
-  "pain": {
-    "hero": {
-      "badge": "🥖 Verticale Phygi Pain",
-      "title": "Phygi Pain",
-      "titleEm": "La boulangerie comme super-média de quartier.",
-      "description": "Chaque matin, des millions d'Ivoiriens achètent leur pain. Nous transformons ce rituel quotidien en un réseau publicitaire mesurable."
-    },
-    "insight": {
-      "badge": "Le insight clé",
-      "title": "Le sac à pain : le meilleur média qu'on n'utilisait pas.",
-      "description": "Contact quotidien. Toutes classes sociales. Moment d'attention réelle. Tenu en main, ramené à la maison, partagé en famille. Aucun autre support physique n'a ce niveau de proximité.",
-      "features": [
-        { "icon": "📅", "title": "Contact quotidien", "description": "Le pain se consomme chaque matin. Votre pub aussi." },
-        { "icon": "🏘️", "title": "Couverture totale", "description": "Du quartier populaire au quartier résidentiel, tous les segments." },
-        { "icon": "🤝", "title": "Confiance locale",  "description": "La boulangerie de quartier est un lieu de confiance. Son sac aussi." }
-      ],
-      "networkTitle": "Portée estimée — réseau Phygi Pain Abidjan",
-      "networkStats": [
-        { "value": "1M+",  "label": "Sacs / mois" },
-        { "value": "6M+",  "label": "Contacts estimés" },
-        { "value": "200+", "label": "Boulangeries" },
-        { "value": "100%", "label": "Communes Abidjan" }
-      ],
-      "quote": {
-        "text": "\"C'est la première fois qu'une campagne terrain me donne autant de données. Je sais exactement quel quartier a le mieux répondu.\"",
-        "author": "— Directeur Marketing, FMCG Abidjan"
-      }
-    },
-    "journey": {
-      "title": "Le parcours d'une campagne Phygi Pain",
-      "steps": [
-        { "title": "Brief annonceur",    "description": "Objectif, zone cible, durée, visuels et offre promotionnelle." },
-        { "title": "Production sacs",    "description": "Impression des sacs à pain avec QR codes uniques par zone." },
-        { "title": "Distribution réseau","description": "Livraison aux boulangeries partenaires dans les zones ciblées." },
-        { "title": "Activation QR",      "description": "Les consommateurs scannent pour accéder à l'offre de marque." },
-        { "title": "Rapport & insights", "description": "Dashboard temps réel + rapport de campagne complet." }
-      ]
-    },
-    "cta": {
-      "title": "Vous êtes une boulangerie ?",
-      "description": "Rejoignez le réseau Phygi Pain et recevez vos sacs gratuitement tout en valorisant votre espace publicitaire.",
-      "button": "Devenir partenaire →"
-    }
+  "network": {
+    "title": "Une présence ",
+    "titleEm": "quotidienne",
+    "titleEnd": " dans toute la ville.",
+    "description": "Vos clients croisent votre marque à chaque pain acheté, chaque ordonnance, chaque course.",
+    "items": [
+      { "value": "12", "title": "communes couvertes", "description": "De Cocody à Yopougon, tout Abidjan." },
+      { "value": "3,2", "title": "contacts par support", "description": "Chaque support est vu par plusieurs personnes." },
+      { "value": "1×", "title": "contact par jour", "description": "Votre marque revient chaque jour dans le quotidien." },
+      { "value": "4,8x", "title": "ROI estimé", "description": "Retour moyen estimé sur l'investissement." }
+    ]
   },
-  "annonceurs": {
-    "hero": {
-      "badge": "📣 Pour les marques",
-      "title": "Atteignez des millions de consommateurs.",
-      "titleEm": "Mesurez chaque franc investi.",
-      "description": "Phygi Ads offre aux marques une solution inédite : la portée de la pub physique avec la précision du digital.",
-      "ctaDemo": "Demander une démo",
-      "ctaKit": "Télécharger le media kit"
+  "contact": {
+    "imageAlt": "Ambiance de rue à Abidjan",
+    "advertiser": {
+      "eyebrow": "Pour les annonceurs",
+      "title": "Prêt à ",
+      "titleEm": "mesurer ?",
+      "description": "Laissez vos coordonnées. Un membre de l'équipe Nozaya vous rappelle avec une proposition pour vos communes.",
+      "tab": "Je suis annonceur",
+      "formTitle": "Lançons votre campagne",
+      "companyLabel": "Entreprise / marque",
+      "consent": "J'accepte d'être recontacté(e) par Nozaya au sujet de ma campagne."
     },
-    "who": {
-      "badge": "Pour qui ?",
-      "title": "Conçu pour les marques qui veulent des preuves.",
-      "cards": [
-        { "icon": "📱", "title": "FMCG & Grande Conso",  "description": "Nestlé, Unilever, brasseries… Touchez les ménages dans leur rituel d'achat quotidien avec des campagnes traçables." },
-        { "icon": "📶", "title": "Télécoms & Mobile",    "description": "MTN, Orange, Wave… Activez des promotions géolocalisées et mesurez le taux de conversion réel depuis le terrain." },
-        { "icon": "🏦", "title": "Banques & Fintech",    "description": "Touchez les populations sous-bancarisées là où elles sont. Acquisition qualifiée, coût par lead mesurable." },
-        { "icon": "🛒", "title": "Retail & Distribution","description": "Générez du trafic en point de vente avec des campagnes hyper-locales et un tracking complet." }
-      ]
+    "shop": {
+      "eyebrow": "Pour les commerces",
+      "title": "Devenez ",
+      "titleEm": "point partenaire.",
+      "description": "Boulangerie, pharmacie, pizzeria, supermarché : distribuez des supports imprimés à vos clients et recevez une proposition de l'équipe Nozaya.",
+      "tab": "Je suis commerçant",
+      "formTitle": "Rejoignez le réseau",
+      "companyLabel": "Nom du commerce",
+      "consent": "J'accepte d'être recontacté(e) par Nozaya au sujet de mon partenariat."
     },
-    "benefits": {
-      "badge": "Ce que vous obtenez",
-      "title": "Une campagne. Des données réelles.",
-      "description": "Pour la première fois en Afrique francophone, une campagne physique vous donne accès aux mêmes KPIs que vos campagnes digitales.",
-      "checks": [
-        { "title": "Portée certifiée",          "description": "Nombre de sacs distribués par zone, par boulangerie, par jour." },
-        { "title": "Engagement mesuré",          "description": "Scans, clics, durée de visite, actions sur la landing page." },
-        { "title": "Profil audience réel",       "description": "Données démographiques et géographiques de ceux qui ont réellement interagi." },
-        { "title": "Rapport de campagne complet","description": "PDF et accès dashboard avec tous vos KPIs, comparable à votre reporting digital." }
-      ],
-      "report": {
-        "title": "Rapport de campagne — Exemple",
-        "rows": [
-          { "label": "Sacs distribués",    "value": "150 000", "accent": false, "large": false },
-          { "label": "Scans QR code",      "value": "8 421",   "accent": false, "large": false },
-          { "label": "Taux d'engagement",  "value": "5.6%",    "accent": true,  "large": false },
-          { "label": "Top zone",           "value": "Yopougon","accent": false, "large": false },
-          { "label": "Leads générés",      "value": "1 204",   "accent": true,  "large": false },
-          { "label": "ROI estimé",         "value": "4.8x",    "accent": false, "large": true  }
-        ]
-      }
+    "fields": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "optional": "· facultatif",
+      "communes": "Communes visées",
+      "budget": "Budget envisagé",
+      "shopType": "Type de commerce",
+      "commune": "Commune",
+      "volume": "Clients par jour"
     },
-    "cta": {
-      "title": "Prêt à lancer votre première campagne Phygi ?",
-      "description": "Nos équipes vous accompagnent de la stratégie à la mesure. Parlons de votre prochain brief.",
-      "button": "Demander une démo →"
-    }
-  },
-  "partenaires": {
-    "hero": {
-      "badge": "🥖 Boulangeries partenaires",
-      "title": "Votre boulangerie.",
-      "titleEm": "Votre nouveau revenu.",
-      "description": "Rejoignez le réseau Phygi Pain et transformez vos sacs à pain en actif marketing. Zéro coût. Zéro effort. Que des avantages.",
-      "cta": "Devenir partenaire →"
+    "placeholders": {
+      "firstName": "Awa",
+      "lastName": "Koné",
+      "company": "Ma marque",
+      "phone": "07 00 00 00 00",
+      "email": "nom@marque.com"
     },
-    "benefits": {
-      "badge": "Ce que vous gagnez",
-      "title": "Pourquoi rejoindre Phygi Pain ?",
-      "cards": [
-        { "icon": "🎁", "title": "Sacs à pain gratuits",      "description": "Nous prenons en charge vos sacs à pain chaque mois, aux mêmes specs que vos sacs actuels. Zéro dépense supplémentaire pour vous.", "accent": false },
-        { "icon": "💰", "title": "Commission sur campagnes",  "description": "Chaque campagne diffusée via votre boulangerie vous génère une commission directe. Votre sac devient un actif qui travaille pour vous.", "accent": true  },
-        { "icon": "🏆", "title": "Image et prestige",         "description": "Les grandes marques choisissent vos sacs pour communiquer. C'est un signal de confiance pour toute votre clientèle.", "accent": false },
-        { "icon": "📲", "title": "Votre propre digital",      "description": "Le QR code peut renvoyer vers votre propre page : vos promotions, vos nouveautés, votre programme fidélité. On finance votre marketing.", "accent": true  }
-      ]
+    "budgets": ["< 500 000 FCFA", "500 000 – 1 M", "1 M – 2,5 M", "2,5 M +", "Je ne sais pas encore"],
+    "shopTypes": ["Boulangerie", "Pharmacie", "Pizzeria / restaurant", "Supermarché", "Boutique / marché", "Autre"],
+    "submit": "Être recontacté →",
+    "sending": "Envoi…",
+    "noSpam": "Pas de spam · Vos données restent chez Nozaya",
+    "errors": {
+      "identityAdvertiser": "Renseignez votre prénom, votre nom et votre entreprise.",
+      "identityShop": "Renseignez votre prénom, votre nom et le nom du commerce.",
+      "shopDetails": "Choisissez le type de commerce et la commune.",
+      "phone": "Entrez un numéro de téléphone valide.",
+      "email": "Cette adresse e-mail semble incorrecte.",
+      "consent": "Cochez la case pour être recontacté(e).",
+      "network": "L'envoi a échoué. Réessayez dans un instant."
     },
-    "how": {
-      "badge": "Engagement simple",
-      "title": "Comment ça marche pour vous ?",
-      "steps": [
-        { "title": "Vous nous rejoignez",    "description": "Un simple accord de partenariat. Durée pilote de 3 mois sans engagement long terme.", "accent": false },
-        { "title": "On vous livre les sacs", "description": "Vos sacs à pain imprimés sont livrés directement à votre boulangerie, régulièrement.", "accent": false },
-        { "title": "Vous utilisez, on mesure","description": "Vous continuez votre activité normalement. Nous collectons les données des QR codes scannés.", "accent": false },
-        { "title": "Vous êtes rémunéré",     "description": "Votre commission est versée chaque mois selon le volume de campagnes diffusées.", "accent": true  }
-      ],
-      "guaranteeTitle": "Ce que vous ne risquez pas",
-      "guaranteeSubtitle": "On sait que la confiance se gagne. C'est pourquoi on a tout prévu.",
-      "guarantees": [
-        "Pas de modification de votre routine de travail",
-        "Vous validez les visuels avant impression",
-        "Aucune donnée de vos clients collectée",
-        "Résiliation possible à tout moment",
-        "Un seul partenaire par quartier — exclusivité de zone"
-      ],
-      "note": "🎯 On ne travaille pas avec toutes les boulangeries. On cherche les meilleurs partenaires dans chaque quartier."
-    },
-    "cta": {
-      "title": "Prêt à rejoindre le réseau ?",
-      "description": "On cherche actuellement des boulangeries partenaires à Abidjan. Les premières à rejoindre auront les meilleures conditions.",
-      "button": "Je veux devenir partenaire →"
+    "success": {
+      "title": "Merci {name}.",
+      "description": "Votre demande est bien reçue. L'équipe Nozaya vous contacte très vite."
     }
   },
   "footer": {
-    "logo": "PhygiAds",
-    "tagline": "La pub offline, enfin mesurable. — Abidjan, Côte d'Ivoire",
-    "copyright": "© 2025 Nozaya · Phygi Ads · Phygi Pain"
+    "tagline": "La pub physique, enfin mesurable · Abidjan · © 2026"
   }
 }

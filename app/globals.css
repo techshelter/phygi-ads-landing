@@ -2,43 +2,57 @@
 
 @theme {
   --color-brand: #2584FE;
-  --color-brand-dark: #1565c8;
-  --color-brand-light: #EEF4FF;
-  --color-accent: #0D0E47;
-  --color-accent-light: #E8E9F8;
+  --color-brand-dark: #1E6AD6;
+  --color-brand-300: #7FB0FF;
+  --color-sky: #7DB4FF;
+  --color-navy: #0D0E47;
+  --color-navy-deep: #0A0B30;
+  --color-navy-edge: #1B1D5C;
   --color-ink: #151616;
-  --color-muted: #676A7B;
-  --color-wire: #D5D8E8;
+  --color-slate: #46505A;
+  --color-muted: #6B7580;
+  --color-wire: #D1D9E0;
   --color-surface: #F2F5F7;
-  --color-pit: #0D0E47;
-  --color-leaf: #7ABDFE;
+  --color-success: #22C55E;
+  --color-success-ink: #04210F;
+  --color-success-light: #4ADE80;
 
-  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-space-grotesk), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, Menlo, monospace;
+
+  --shadow-xl: 0 24px 48px -12px rgba(13, 14, 71, 0.18);
+  --shadow-focus: 0 0 0 3px rgba(37, 132, 254, 0.35);
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
-  /* margin: 0;
-  padding: 0; */
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: clip;
+  }
 
-body {
-  font-family: var(--font-sans);
-  color: #151616;
-  line-height: 1.6;
-  background: white;
-}
+  body {
+    margin: 0;
+    overflow-x: clip;
+    font-family: var(--font-sans);
+    line-height: 1.5;
+    color: #fff;
+    background: var(--color-navy);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
 
-a {
-  text-decoration: none;
-  /* color: inherit; */
-}
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    margin: 0;
+  }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
+  a {
+    text-decoration: none;
+  }
 
-.page-enter {
-  animation: fadeIn 0.3s ease both;
+  ::selection {
+    background: #D6E6FF;
+    color: var(--color-navy);
+  }
 }
