@@ -45,7 +45,7 @@
   },
   "scan": {
     "title": "One scan.",
-    "titleEm": "10 seconds.",
+    "titleEm": "3 seconds.",
     "chips": ["Coupon", "Offer", "No app"],
     "imageAlt": "Someone scanning the QR code on a package",
     "phone": {
